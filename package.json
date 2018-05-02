@@ -1,6 +1,6 @@
 {
   "name": "asimple-react-data-table",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple react data-table component",
   "main": "lib/index.js",
   "scripts": {
@@ -41,4 +41,3 @@
     "url": "git@github.com:andrepadez/asimple-react-data-table.git"
   }
 }
-
