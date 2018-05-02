@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-react-npm-component",
+  "name": "asimple-react-data-table",
   "version": "0.1.0",
-  "description": "A minimal boilerplate for building a react component for npm, including a demo page.",
+  "description": "A simple react data-table component",
   "main": "lib/index.js",
   "scripts": {
     "dev": "concurrently \"yarn lib:watch\" \"yarn docs\"",
@@ -35,9 +35,10 @@
     "webpack-dev-server": "^3.1.3"
   },
   "author": "Andre Padez <andre.padez@gmail.com>",
-  "homepage": "https://github.com/andrepadez/boilerplate-react-npm-component",
+  "homepage": "https://github.com/andrepadez/react-npm-component-starter",
   "repository": {
     "type": "git",
     "url": "git@github.com:andrepadez/boilerplate-react-npm-component.git"
   }
 }
+

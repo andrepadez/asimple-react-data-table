@@ -1,15 +1,16 @@
-import React from "react";
-import { render } from "react-dom";
-import MyComponent from "../../lib";
-import "./styles.css";
+import React from 'react'
+import { render } from 'react-dom'
+import DataTable from '../../lib'
+import data from './mock-data.json'
+import './styles.css'
 
-function Demo() {
-  return (
-    <div>
-      <h1>Demo with examples of the component</h1>
-      <MyComponent color="brown">Wow what a button</MyComponent>
+const Example = () => (
+  <div className="data-tables-example">
+    <h1>Related DataTables I</h1>
+    <div className="table-container">
+      <DataTable columns={['title', 'year']} index="imdbID" items={data.shows} />
     </div>
-  );
-}
+  </div>
+)
 
-render(<Demo />, document.getElementById("app"));
+render(<Example />, document.getElementById('app'))
