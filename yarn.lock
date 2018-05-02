@@ -231,7 +231,7 @@
     "@babel/helper-replace-supers" "7.0.0-beta.46"
     "@babel/plugin-syntax-class-properties" "7.0.0-beta.46"
 
-"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.46":
+"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.46", "@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.46.tgz#fb3979488a52c1246cdced4a438ace0f47ac985b"
   dependencies:
@@ -997,9 +997,9 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-loader@^7.1.4:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
+babel-loader@^8.0.0-beta.0:
+  version "8.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.2.tgz#4d5b67c964dc8c9cba866fd13d6b90df3acf8723"
   dependencies:
     find-cache-dir "^1.0.0"
     loader-utils "^1.0.2"
@@ -6724,7 +6724,7 @@ webpack-addons@^1.1.5:
   dependencies:
     jscodeshift "^0.4.0"
 
-webpack-cli@^2.1.2:
+webpack-cli@^2.0.15:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-2.1.2.tgz#9c9a4b90584f7b8acaf591238ef0667e04c817f6"
   dependencies:
