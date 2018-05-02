@@ -35,10 +35,10 @@
     "webpack-dev-server": "^3.1.3"
   },
   "author": "Andre Padez <andre.padez@gmail.com>",
-  "homepage": "https://github.com/andrepadez/react-npm-component-starter",
+  "homepage": "https://github.com/andrepadez/asimple-react-data-table",
   "repository": {
     "type": "git",
-    "url": "git@github.com:andrepadez/boilerplate-react-npm-component.git"
+    "url": "git@github.com:andrepadez/asimple-react-data-table.git"
   }
 }
 
