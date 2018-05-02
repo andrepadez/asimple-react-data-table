@@ -5,7 +5,6 @@ import TableRow from './TableRow'
 
 class DataTable extends Component {
   constructor(props) {
-    console.log(props)
     super(props)
     if (props.columns.length === 0 && props.items.length === 0) {
       throw Error("can't create DataTable with no columns and no Items")
